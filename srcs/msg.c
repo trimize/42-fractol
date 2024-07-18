@@ -6,7 +6,7 @@
 /*   By: trimize <trimize@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/16 17:13:21 by teorimize         #+#    #+#             */
-/*   Updated: 2024/02/29 17:10:09 by trimize          ###   ########.fr       */
+/*   Updated: 2024/07/18 14:17:46 by trimize          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,7 @@ void	msg(int argc, char **argv, t_data *data)
 			("\n██████████████████████████████████████████████████████\n\n");
 		ft_printf("\nFalse number of arguments, here is what's expected :\n");
 		ft_printf("\n\t./fractol FRACTAL_SET\n\n");
-		ft_printf("\tAccepted sets :'Mandelbrot', 'Julia'\n\n");
+		ft_printf("\tAccepted sets :'Mandelbrot', 'Julia', 'Burning Ship'\n\n");
 		ft_printf
 			("\tFor Julia, two value are expected both between -2 and 2\n");
 		ft_printf
