@@ -3,6 +3,7 @@
 
 Graphical project to render fractals.
 This project uses minilibx to draw the pixels, it is advised to use it on linux.
+I have put on making the color shift as smooth as possible :)
 
 ## Installation
 
@@ -23,22 +24,18 @@ This will show a menu on the differents way to use the executable :
 
 ![Alt text](./assets/menu_make.png?raw=true)
 
-To run the algorithm :
+x and y are doubles.
 
-The numbers can be either in between double quotes separated by a space or just their own argument.
-Accepted numbers are between int MIN and int MAX and no duplicates.
+When ran a second menu appears : 
 
-Below is an example :
 
-```bash
-./push_swap "1 2 3 4" 5 6 7 8 9 "52 65 89" 105
-```
+![Alt text](./assets/run_menu.png?raw=true)
 
-To run the checker : 
 
-```bash
-./push_swap "1 2 3 4" 5 6 7 8 9 "52 65 89" 105 | ./checker
-```
+Example of Mandelbrot (test the sets and the keys binded, enjoy) :
+
+
+![Alt text](./assets/Mandelbrot.png?raw=true)
 
 
 ## Grade
