@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf_utils.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: trimize <trimize@student.42.fr>            +#+  +:+       +#+        */
+/*   By: to <to@student.42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 16:39:33 by trimize           #+#    #+#             */
-/*   Updated: 2023/12/08 17:21:21 by trimize          ###   ########.fr       */
+/*   Updated: 2024/10/19 16:15:06 by to               ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,8 +72,6 @@ int	ft_lenunsint(unsigned int n)
 	int	i;
 
 	i = 0;
-	if (n < 0)
-		i++;
 	if (n == 0)
 		return (1);
 	while (n != 0)
